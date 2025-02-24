@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML Tables</title>
-  </head>
-  <body>
-    <!-- Write your HTML here -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Cities Population</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td:nth-child(1) {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h2>US Cities Population</h2>
+    <table>
+        <tr>
+            <th>City</th>
+            <th>State</th>
+            <th>2017 estimate</th>
+        </tr>
+        <tr>
+            <td><i>New York</i></td>
+            <td>New York</td>
+            <td>8,622,698</td>
+        </tr>
+        <tr>
+            <td><i>Los Angeles</i></td>
+            <td>California</td>
+            <td>3,999,759</td>
+        </tr>
+        <tr>
+            <td><i>Chicago</i></td>
+            <td>Illinois</td>
+            <td>2,716,450</td>
+        </tr>
+        <tr>
+            <td><i>Houston</i></td>
+            <td>Texas</td>
+            <td>2,312,717</td>
+        </tr>
+    </table>
+</body>
 </html>
